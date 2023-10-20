@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Frontend Mentor | Results summary component</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main id="container">
+    <section id="result">
+      <div id="result-heading">Your Result</div>
+      <div id="score-container">
+        <div id="score">76</div>
+        <div id="overall">of 100</div>
+      </div>
+      <div id="rating">Great</div>
+      <div id="rating-desc">
+        You scored higher than 65% of the people who have taken these tests.
+      </div>
+    </section>
+    <section id="summary">
+      <div id="summary-heading">Summary</div>
+        <div id="criteria-scores">
+          <div id="reaction" class="criteria-container">
+            <div class="criteria-icon-word">
+              <img src="./assets/images/icon-reaction.svg" alt="Reaction Icon">
+              <div>Reaction</div>
+            </div>
+            <div class="criteria-score">80 <span>/ 100</span></div>
+          </div>
+          <div id="memory" class="criteria-container">
+            <div class="criteria-icon-word">
+              <img src="./assets/images/icon-memory.svg" alt="Memory Icon">
+              <div>Memory</div>
+            </div>
+            <div class="criteria-score">92 <span>/ 100</span></div>
+          </div>
+          <div id="verbal" class="criteria-container">
+            <div class="criteria-icon-word">
+              <img src="./assets/images/icon-verbal.svg" alt="Verbal Icon">
+              <div>Verbal</div>
+            </div>
+            <div class="criteria-score">61 <span>/ 100</span></div>
+          </div>
+          <div id="visual" class="criteria-container">
+            <div class="criteria-icon-word">
+              <img src="./assets/images/icon-visual.svg" alt="Visual Icon">
+              <div>Visual</div>
+            </div>
+            <div class="criteria-score">72 <span>/ 100</span></div>
+          </div>
+        </div>
+      <button type="button">Continue</button>
+    </section>
+  </main>
+</html>
