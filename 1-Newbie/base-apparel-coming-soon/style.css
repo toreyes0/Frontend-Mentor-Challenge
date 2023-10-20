@@ -13,15 +13,8 @@
 }
 
 body {
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
-  scrollbar-width: none; /* for Firefox */
-  overflow-y: scroll;
   box-sizing: border-box;
   font-family: var(--body-font);
-}
-
-body::-webkit-scrollbar {
-  display: none; /* for Chrome, Safari, and Opera */
 }
 
 .main-container {
@@ -159,7 +152,6 @@ h1 span {
 
 @media (hover: hover) {
   .btn:hover {
-    -webkit-box-shadow: -1px 16px 17px -6px rgba(0, 0, 0, 0.51);
     box-shadow: -1px 16px 17px -6px rgba(0, 0, 0, 0.51);
     transition: all ease-in-out 0.3s;
   }

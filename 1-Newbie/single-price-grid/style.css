@@ -35,7 +35,6 @@ body {
   flex-direction: column;
   width: 100%;
   max-width: 39.3rem;
-  -webkit-box-shadow: var(--box-shadow);
   box-shadow: var(--box-shadow);
 }
 .sub-container {
@@ -108,7 +107,6 @@ body {
   color: var(--white);
   border-radius: 5px;
   border: 1px solid var(--bright-yellow);
-  -webkit-box-shadow: var(--box-shadow);
   box-shadow: var(--box-shadow);
   padding: 0.8rem;
   letter-spacing: 1px;
